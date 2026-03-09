@@ -66,7 +66,7 @@ COPY . /app
 WORKDIR /app
 ```
 
-Our *docker-compose* file is running the unit tests and looks like:
+Our *docker compose* file is running the unit tests and looks like:
 ```yaml
 # docker-compose.yml
 services:
