@@ -1,0 +1,6 @@
+services:
+  main:
+    image: pythonunittests
+    working_dir: /app
+    entrypoint: ["sh", "-c"]
+    command: ["python3 -m unittest discover -s ./unit-tests -p 'test_*.py'"]
